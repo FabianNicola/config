@@ -1,19 +1,9 @@
-import {Home} from "./components";
+import {Home, TopHeader} from "./components";
+import { Layout } from "./components/layout/Layout";
 
 function App() {
   return (
-    <div
-      style={{
-        backgroundColor: "red",
-        width: 100,
-        height: 100,
-        marginTop: 200,
-        marginLeft: 200,
-      }}
-    >
-      <Home />
-      Hello
-    </div>
+    <Layout/> 
   );
 }
 

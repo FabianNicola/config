@@ -1,5 +1,5 @@
-import {Tilte} from "./Home.style";
+import {Title} from "./Home.style";
 
 export function Home() {
-  return <Tilte>CEAAAAAU</Tilte>;
+  return <Title>Get started...</Title>;
 }
