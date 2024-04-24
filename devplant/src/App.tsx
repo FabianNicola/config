@@ -1,4 +1,4 @@
-import React from "react";
+import {Home} from "./components";
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
         marginLeft: 200,
       }}
     >
+      <Home />
       Hello
     </div>
   );
