@@ -1,11 +1,14 @@
 import styled from 'styled-components';
 import { TopHeader } from '../topHeader';
+import { Home } from '../Home';
+import { Button } from '../buttons/Button';
 
 const Layout = (): JSX.Element => {
 	return (
 		<LayoutContainer>
 			<StyledContent>
                 <TopHeader />
+                <Home />
 			</StyledContent>
 		</LayoutContainer>
 	);
