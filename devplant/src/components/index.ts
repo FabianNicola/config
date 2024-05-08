@@ -1,2 +1,2 @@
-export {Home} from "./Home";
+export {Home} from "../screens/Home";
 export * from "./topHeader";
